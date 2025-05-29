@@ -6,10 +6,13 @@ public class UsuarioSistema extends Pessoa {
         this.nivelAcesso = nivelAcesso;
     }
 
-    public String getNivelAcesso() { return nivelAcesso; }
-    public void setNivelAcesso(String nivelAcesso) { this.nivelAcesso = nivelAcesso; }
+    public String getNivelAcesso() { 
+        return nivelAcesso; 
+    }
+    public void setNivelAcesso(String nivelAcesso) {
+        this.nivelAcesso = nivelAcesso; 
+    }
 
-    @Override
     public void exibirInfo() {
         super.exibirInfo();
         System.out.println("Nível de Acesso: " + nivelAcesso);
