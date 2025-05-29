@@ -9,7 +9,6 @@ public class Cliente extends Pessoa {
     public String getHistoricoCompras() { return historicoCompras; }
     public void setHistoricoCompras(String historicoCompras) { this.historicoCompras = historicoCompras; }
 
-    @Override
     public void exibirInfo() {
         super.exibirInfo();
         System.out.println("Histórico de Compras: " + historicoCompras);
