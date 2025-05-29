@@ -9,7 +9,6 @@ public class Empregado extends Pessoa {
     public String getCargo() { return cargo; }
     public void setCargo(String cargo) { this.cargo = cargo; }
 
-    @Override
     public void exibirInfo() {
         super.exibirInfo();
         System.out.println("Cargo: " + cargo);
